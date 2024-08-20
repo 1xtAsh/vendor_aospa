@@ -152,6 +152,11 @@ SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 FULL_SYSTEM_OPTIMIZE_JAVA := true
 
+# LMOFreeform
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
 # MTE
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.arm64.memtag.system_server=off
