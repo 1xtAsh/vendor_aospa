@@ -4,15 +4,18 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
-  <include name="../platforms/msmnile.xml" />
+  <!--include name="../platforms/msmnile.xml" /-->
 
-  <project path="device/xiaomi/miatoll" name="AOSPA/android_device_xiaomi_miatoll" remote="aospa" revision="uvite" />
-  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="uvite-855" />
-  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="uvite" />
-  <project path="kernel/xiaomi/miatoll" name="AOSPA/android_kernel_xiaomi_miatoll" remote="aospa" revision="uvite" />
+  <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" remote="pa-xe" revision="vauxite" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pa-xe" revision="vauxite-855" />
+  <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="vauxite-legacy-component" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="pa-xe" revision="vauxite-855" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
+  <project path="kernel/xiaomi/miatoll" name="android_kernel_xiaomi_miatoll" remote="pa-xe" revision="vauxite" clone-depth="1" />
   <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="uvite-pn5xx" />
   <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="uvite-pn5xx" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="pa-xe" revision="vauxite-855" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="AOSPA/android_vendor_qcom_opensource_audio-hal_st-hal" remote="aospa" revision="uvite-855" />
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="uvite" clone-depth="1" />
-  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="uvite-miatoll" clone-depth="1" />
+  <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" remote="pa-xe" revision="vauxite" clone-depth="1" />
+  <!--project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="8f10b0f93f8915f67778166ddeab4ba282e78e11" clone-depth="1" /-->
 </manifest>
