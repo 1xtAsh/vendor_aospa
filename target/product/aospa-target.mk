@@ -49,9 +49,16 @@ PRODUCT_COPY_FILES += \
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
+# Browser
+PRODUCT_PACKAGES += \
+    FOSSBrowser
+
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    Flash
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.derpfest.flash
 
 # curl
 PRODUCT_PACKAGES += \
@@ -113,6 +120,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/aospa/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
     vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+# Gallery
+PRODUCT_PACKAGES += \
+    FossifyGallery
 
 # GameSpace
 PRODUCT_PACKAGES += \

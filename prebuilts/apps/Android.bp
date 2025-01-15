@@ -1,0 +1,40 @@
+
+android_app_import {
+    name: "Flash",
+    arch: {
+        arm64: {
+            apk: "Flash.apk",
+        },
+    },
+    overrides: ["Camera2"],
+    preprocessed: true,
+    presigned: true,
+    system_ext_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
+    apk: "FOSSBrowser.apk",
+    name: "FOSSBrowser",
+    overrides: ["Chrome64"],
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
+android_app_import {
+    apk: "FossifyGallery.apk",
+    name: "FossifyGallery",
+    overrides: ["Photos"],
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
