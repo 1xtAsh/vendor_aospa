@@ -49,10 +49,6 @@ PRODUCT_COPY_FILES += \
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
-# Browser
-PRODUCT_PACKAGES += \
-    FOSSBrowser
-
 # Camera
 PRODUCT_PACKAGES += \
     Flash
