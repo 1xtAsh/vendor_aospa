@@ -9,7 +9,7 @@
   <project path="device/nothing/phone1" name="android_device_nothing_phone1" remote="pa-xe" revision="vauxite" />
   <project path="kernel/msm-5.4" name="android_kernel_nothing_sm7325" remote="pa-xe" revision="vauxite" />
   <project path="packages/apps/ParanoidGlyph" name="AOSPA/android_packages_apps_ParanoidGlyph" remote="aospa" revision="vauxite" />
-  <project path="vendor/nothing" name="proprietary_vendor_nothing" remote="pa-xe" revision="vauxite" />
+  <project path="vendor/nothing/phone1" name="proprietary_vendor_nothing_phone1" remote="pa-xe" revision="vauxite" />
   <project path="vendor/nothing/camera" name="proprietary_vendor_nothing_camera" remote="pa-xe" revision="vauxite" clone-depth="1" />
   <project path="vendor/nothing/firmware" name="proprietary_vendor_nothing_firmware" remote="pa-xe" revision="vauxite" />
 </manifest>
