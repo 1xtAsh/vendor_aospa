@@ -277,6 +277,7 @@ def main():
             "--quiet",
             "--no-clone-bundle",
             "--no-tags",
+            "--fetch-submodules",
         ] + brewable_projects
         try:
             subprocess.run(brew_command, check=True)
