@@ -14,6 +14,7 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/haydn/aospa_haydn.mk \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
@@ -50,6 +51,7 @@ PRODUCT_MAKEFILES += \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    aospa_haydn-userdebug \
     aospa_alioth-userdebug \
     aospa_apollo-userdebug \
     aospa_bitra-userdebug \
