@@ -17,5 +17,5 @@
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="pa-xe" revision="vauxite-855" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="AOSPA/android_vendor_qcom_opensource_audio-hal_st-hal" remote="aospa" revision="uvite-855" />
   <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" remote="pa-xe" revision="vauxite" clone-depth="1" />
-  <!--project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="8f10b0f93f8915f67778166ddeab4ba282e78e11" clone-depth="1" /-->
+  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="pa-xe" revision="vauxite-miatoll" />
 </manifest>
