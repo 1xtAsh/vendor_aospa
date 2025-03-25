@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/lahaina.xml" />
+
+  <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="pa-xe" />
+  <project path="kernel/xiaomi/veux" name="android_kernel_msm-5.4" remote="pa-xe" />
+  <project path="vendor/xiaomi/veux" name="proprietary_vendor_xiaomi_veux" remote="pa-xe" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa"/>
+</manifest>
